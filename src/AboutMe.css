@@ -45,10 +45,16 @@ h1#aboutme {
     h1#aboutme {
         margin-top: 175px;
     }
+    .middle img {
+        margin-top: 175px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     h1#aboutme {
+        margin-top: 300px;
+    }
+    .middle img {
         margin-top: 300px;
     }
 }
