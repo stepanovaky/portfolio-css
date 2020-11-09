@@ -33,7 +33,7 @@ export const PurringTails = {
   title: "Purring Tails",
   img: PurringTailsScreenshot,
   alt: "screenshot of Purring Tails",
-  livelink: "https://purringtails-frontend-fizfvgpo4.vercel.app/login",
+  livelink: "https://purringtails-frontend-1hevkoei8.vercel.app/login",
   githublink: "https://github.com/stepanovaky/purringtails-frontend",
   p1: `At Purring Tails you can schedule one of four available services for your pet`,
   p2: `This app was created to give the user a simple solution for booking one of the Purring Tails services`,
