@@ -1,0 +1,41 @@
+html {
+    background-color: #ffe2b6;
+}
+  
+  .container {
+    background: #c5b6ff;
+    color: white;
+    height: 100%;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  nav a {
+      font-size: 40px;
+      color: #fff;
+      text-decoration: none;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  nav.large {
+      position: fixed;
+      left: 0;
+      z-index: 20;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      height: 100vh;
+      background: var(--secondary-color);
+  }
+
+  @media only screen and (max-width: 600px) {
+      nav.large {
+          flex-direction: row;
+          width: 100%;
+          height: 10vh;
+          justify-content: space-around;
+          padding-right: 60px;
+      }
+  }
+  
+  

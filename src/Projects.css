@@ -1,0 +1,28 @@
+section.projects-overview {
+    display: grid;
+    grid-template-areas: "title" "card"
+}
+
+section.projects-overview h2 {
+    grid-area: title;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 40px;
+    color: #7a6255;
+    font-family: 'Gabriela', serif;    
+}
+
+div.projects-list {
+    grid-area: card;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+@media only screen and (max-width: 900px) {
+    div.projects-list {
+        flex-direction: column;
+    }
+}
