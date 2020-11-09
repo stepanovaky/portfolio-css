@@ -23,9 +23,9 @@ export const QuizAppProject = {
   livelink: "https://stepanovaky.github.io/quizapp2/",
   githublink: "https://github.com/stepanovaky/quizapp2",
   p1:
-    "How well do you know King Henry VIII? Answer a few questions about him (and his many, many wives) to find out!",
-  p2: `This app was created to test the user's knowledge of interesting facts about King Henry VIII. It is aimed at any user interested in historical data and/or wishes to challenge themselves.`,
-  p3: `I was inspired to create this quiz app from my own personal interest in Henry VIII. I loved reading about Queen Elizabeth I as a child, and writing this app was a way for me to see how much I remembered.`,
+    "How well do you know King Henry VIII? Answer a few questions about him to find out!",
+  p2: `This app was created to test the user's knowledge of interesting facts about King Henry VIII. It is aimed at any user interested in historical data.`,
+  p3: `I was inspired to create this quiz app from my own personal interest in Henry VIII. I loved reading about Queen Elizabeth I as a child`,
   p4: `I used HTML, CSS, JavaScript and jQuery to create this quiz.`,
 };
 
