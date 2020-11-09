@@ -18,11 +18,14 @@ section.aboutme img {
 
 div.middle {
     grid-area:middle;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     font-weight: bold;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
 }
+
 
 div.middle p {
     font-family: 'Montserrat', sans-serif;
